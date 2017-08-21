@@ -14,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Player player = new Player("file:///J:/testvideo512kb.mp4");
-        Scene scene = new Scene(player, 320,240, Color.DARKCYAN);
+        Scene scene = new Scene(player, 320,270, Color.DARKCYAN);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Jaholm Media Player");
         primaryStage.show();
